@@ -1,5 +1,7 @@
+const axios = require("axios");
+
 const test = () => {
   console.log("testing.......");
 };
 
-export default test;
+module.exports = test;
